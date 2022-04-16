@@ -1,0 +1,4 @@
+enum CountSystem {
+    ARABIAN,
+    ROMAN
+}
