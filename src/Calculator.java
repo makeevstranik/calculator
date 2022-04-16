@@ -12,7 +12,7 @@ class Calculator {
     Map<String, Integer> arabianRomanTemplate; // template for roman transmission, set automatically in constructor
 
     CountSystem countSystem; // current number system
-    Operand operand; // current arithmetic operation, hase method
+    Operand operand; // current arithmetic operation, has method
 
     Calculator() {
         this.operators = "[\\+\\-\\/\\*]";
@@ -37,7 +37,7 @@ class Calculator {
             // all exceptions from deep level print here
         } catch(Exception err) {
             String message = err.getMessage();
-            if(message != null)  System.out.println(err.getMessage());
+            if (message != null) System.out.println(err.getMessage());
         }
         return null;
     }
